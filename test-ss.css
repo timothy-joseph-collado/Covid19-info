@@ -100,7 +100,7 @@ color: #222;
     max-width: 100%;
 
 }
-table {
+table, th, td {
     border: solid #555;
 }
 hr.light-50 {
