@@ -122,6 +122,62 @@ hr.light-50 {
     margin-top: .8rem;
     margin-bottom: 1rem;
 }
+/* Contact form*/
+.contact-form{
+    width: 85%;
+    max-width: 600px;
+    background: #4A90E2FF;
+    position: relative;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 23%;
+    margin-bottom: -15%;
+    padding: 30px, 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #4A90E2FF;
+    font-family: "Tahoma",sans-serif;
+    color: black;
+  }
+.contact-form h1{
+  margin-top: 0px;
+  font-weight: 200;
+  }
+.txtb{
+    border: 1px solid rgb(255, 255, 255);
+    margin: 10px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+  }
+.txtb label{
+    display: block;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    text-transform: small-caps;
+    font-size: 13px;
+   
+  }
+.txtb input,.txtb textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+    color: black;
+  }
+.btn {
+    display: block;
+    background: #004266;
+    padding: 25px 0;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+  }
 .social a {
     font-size: 4.5em;
     padding: 3rem;
