@@ -153,36 +153,42 @@
  </div>
  </div>
     
- <!--cards-->
+ <!--cards/mapping img-->
  <div class="container-fluid padding">
  <div class="row padding">
      <div class="col-md-4">
         <div class="card">
-         <img class="card-img-top" src="images/card 1.png">
+         <img class="card-img-top" src="images/card 1.png" usemap="#card1">
+        <map name="card1">
+            <area shape="rect" coords="178,220,252,260," alt="volunteering" href="#Contact-form">
+        </map>
          <div class="card-body">
              <h4 class="card-title">Volunteering</h4>
              <p class="card-text">We help our communities with the support that they need. if you want to help or volunteer.</p>
-             
          </div>
         </div>
      </div>
      <div class="col-md-4">
         <div class="card">
-         <img class="card-img-top" src="images/card 2.png">
+         <img class="card-img-top" src="images/card 2.png" usemap="#card2">
+         <map name="card2">
+            <area shape="poly" coords="166,55,277,105,224,200,116,141" alt="volunteering" href="#News">
+        </map>
          <div class="card-body">
              <h4 class="card-title">Stay Alert</h4>
              <p class="card-text">Keeping you informed and up date with the latest news.</p>
-             <a href="#News" class="btn btn-outline-secondary">News</a>
          </div>
         </div>
      </div>
      <div class="col-md-4">
         <div class="card">
-         <img class="card-img-top" src="images/card 3.png">
+         <img class="card-img-top" src="images/card 3.png" usemap="#card3">
+         <map name="card3">
+            <area shape="circle" coords="167,180,44" alt="Support" href="#Contact">
+        </map>
          <div class="card-body">
              <h4 class="card-title">Supporting you</h4>
              <p class="card-text">If you need help or support at this hard times, let us know and will do our best to help you.</p>
-             <a href="#Connect" class="btn btn-outline-secondary">Connect</a>
          </div>
         </div>
      </div>
@@ -251,7 +257,7 @@
      <div class="col-12">
          <h2 id="Connect">Contact Us</h2>
      </div>
-     <div class="contact-form">
+     <div id="Contact-form" class="contact-form">
         <h3>Contact Form</h3>
         <div class="txtb">
           <label>Full Name :</label>
